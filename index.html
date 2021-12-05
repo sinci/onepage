@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titel der Webseite</title>
+    <meta name="description" content="One page HTML Website" />
+    <meta name="keywords" content="one page,HTML5,Website" />
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.svg" />
+    <link rel="stylesheet" href="assets/css/uikit.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+
+<body>
+    <!--======= HEADER =======-->
+    <header id="home" class="header-area">
+        <div class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle typewriter" style="background-image: url(assets/images/headerbg.jpg);" uk-height-viewport>
+            <h1>Super Simple Website</h1>
+        </div>
+        <div class="uk-position-top">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar uk-sticky>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-nav" uk-toggle>
+                        <span uk-navbar-toggle-icon></span>
+                        <span>Menu</span>
+                    </a>
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img data-src="assets/images/onepage.svg" alt="one-page" height="32" width="160" uk-svg></a>
+                </div>
+                <div class="uk-navbar-center">
+                    <a class="uk-navbar-item uk-logo uk-hidden@m" href="/">
+                        <img data-src="assets/images/onepage.svg" alt="onepage" height="32" width="160" uk-svg>
+                    </a>
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        <li class="nav-item uk-active">
+                            <a href="#home" class="nav-link" uk-scroll><span data-hover="home">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link" uk-scroll="offset:60;"><span data-hover="about">About</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#service" class="nav-link" uk-scroll="offset:60;"><span data-hover="service">Service</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link" uk-scroll="offset:60;"><span data-hover="portfolio">Portfolio</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link" uk-scroll="offset:60;"><span data-hover="contact">Contact</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <a class="uk-margin-right" href="#" target="_blank" uk-icon="facebook"></a>
+                    <a class="uk-margin-right" href="#" target="_blank" uk-icon="instagram"></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--======= ABOUT ========-->
+    <section id="about" class="about-area">
+        <div class="uk-container">
+            <h2 class="title uk-text-center">About us</h2>
+            <p class="uk-text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div uk-grid>
+                <div class="uk-width-1-2@m">
+                    <h5 class="about-title">Hi There! I'm Mark Parker</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="uk-width-1-2@m">
+                    <div class="uk-overflow-hidden">
+                        <div uk-scrollspy="cls: uk-animation-slide-left; delay: 100; repeat: true; offset-top: 0; ; media: @m">
+                            <h6 class="skill-title">HTML\CSS <span class="uk-float-right">95%</span></h6>
+                            <progress id="" class="uk-progress " value="95" max="100"></progress>
+                        </div>
+                        <div uk-scrollspy="cls: uk-animation-slide-left; delay: 100; repeat: true; offset-top: 0; ; media: @m">
+                            <h6 class="skill-title">JS\PHP <span class="uk-float-right">60%</span></h6>
+                            <progress id="" class="uk-progress " value="60" max="100"></progress>
+                        </div>
+                        <div uk-scrollspy="cls: uk-animation-slide-left; delay: 100; repeat: true; offset-top: 0; ; media: @m">
+                            <h6 class="skill-title">WordPress<span class="uk-float-right">85%</span></h6>
+                            <progress id="" class="uk-progress " value="85" max="100"></progress>
+                        </div>
+                        <div uk-scrollspy="cls: uk-animation-slide-left; delay: 100; repeat: true; offset-top: 0; ; media: @m">
+                            <h6 class="skill-title">Joomla<span class="uk-float-right">85%</span></h6>
+                            <progress id="" class="uk-progress " value="85" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--======= SERVICE ======-->
+    <section id="service" class="service-area uk-background-muted">
+        <div class="uk-container">
+            <h2 class="title uk-text-center">Our Services</h2>
+            <p class="uk-text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br/>sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+
+            <div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match uk-margin-medium-top" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                        <span uk-icon="icon: world; ratio: 3"></span>
+                        <h6 class="uk-card-title uk-margin-small-top">Domain & Webhosting</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                        <span uk-icon="icon: desktop; ratio: 3"></span>
+                        <h6 class="uk-card-title uk-margin-small-top">Web Design</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                        <span uk-icon="icon: pencil; ratio: 3"></span>
+                        <h6 class="uk-card-title uk-margin-small-top">Graphic Desgin</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                        <span uk-icon="icon: cart; ratio: 3"></span>
+                        <h6 class="uk-card-title uk-margin-small-top">Online Shop</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                        <span uk-icon="icon: code; ratio: 3"></span>
+                        <h6 class="uk-card-title uk-margin-small-top">Web Development</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                        <span uk-icon="icon: lifesaver; ratio: 3"></span>
+                        <h6 class="uk-card-title uk-margin-small-top">Support</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--======= CALL TO ACTION ======-->
+    <section id="calltoaction" class="uk-background-blend-multiply uk-background-primary uk-background-cover uk-height-large uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(assets/images/call-to-action.jpg);">
+
+        <div class="uk-container uk-text-center">
+            <h2 class="title uk-text-emphasis">Have any project on mind?</h2>
+            <p class="uk-text-emphasis">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor<br/>invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <p class="uk-margin-medium-top">
+                <button class="uk-button uk-button-secondary uk-margin-right">Download</button>
+                <button class="uk-button uk-button-primary">Contact</button>
+            </p>
+        </div>
+
+    </section>
+    <!--======= PORTFOLIO ======-->
+    <section id="portfolio" class="portfolio-area">
+        <div class="uk-container">
+            <h2 class="title">Recent Works</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <!-- uk-grid -->
+            <div class="uk-child-width-1-3@m uk-grid-medium" uk-grid>
+                <div>
+                    <div class="uk-inline tm-image-card uk-transition-toggle">
+                        <img data-src="assets/images/portfolio/01.jpg" width="" height="" alt="" uk-img>
+                        <div class="uk-position-cover uk-overlay uk-overlay-primary uk-transition-fade"></div>
+                        <div class="uk-panel uk-position-center uk-text-center uk-transition-fade">
+                            <h3 class="work-title uk-text-emphasis">Website</h3>
+                            <span uk-lightbox><a href="assets/images/portfolio/01.jpg" class="uk-icon-button uk-margin-small-right" uk-icon="plus"></a></span>
+                            <span><a href="#" class="uk-icon-button" uk-icon="link" target="_blank"></a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-inline tm-image-card uk-transition-toggle">
+                        <img data-src="assets/images/portfolio/02.jpg" width="" height="" alt="" uk-img>
+                        <div class="uk-position-cover uk-overlay uk-overlay-primary uk-transition-fade"></div>
+                        <div class="uk-panel uk-position-center uk-text-center uk-transition-fade">
+                            <h3 class="work-title uk-text-emphasis">Online Shop</h3>
+                            <span uk-lightbox><a href="assets/images/portfolio/02.jpg" class="uk-icon-button uk-margin-small-right" uk-icon="plus"></a></span>
+                            <span><a href="#" class="uk-icon-button" uk-icon="link" target="_blank"></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- uk-grid end -->
+        </div>
+    </section>
+    <!--======= CONTACT ======-->
+    <section id="contact" class="contact-area uk-background-muted">
+        <div class="uk-container">
+            <h2 class="title uk-text-center">Get In Touch</h2>
+            <p class="uk-text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+
+            <div class="uk-child-width-1-3@m uk-grid-medium uk-grid-match uk-margin-medium-top" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                        <span uk-icon="icon: location; ratio: 3"></span>
+                        <h6 class="uk-card-title uk-margin-small-top">Address</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                        <span uk-icon="icon: phone; ratio: 3"></span>
+                        <h6 class="uk-card-title uk-margin-small-top">Phone</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                        <span uk-icon="icon: mail; ratio: 3"></span>
+                        <h6 class="uk-card-title uk-margin-small-top">Email</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div uk-grid>
+                <div class="uk-width-1-2@m">
+                    <form id="contact-form" action="assets/contact.php" method="POST">
+                        <div class="uk-margin">
+                            <input id="name" class="uk-input" type="text" name="visitor_name" placeholder="Name" required>
+                        </div>
+                        <!-- single form -->
+                        <div class="uk-margin ">
+                            <input id="email " class="uk-input " type="email" name="visitor_email" placeholder="Email" required>
+                        </div>
+                        <!-- single form -->
+                        <div class="uk-margin ">
+                            <textarea id="message" class="uk-textarea" name="visitor_message" placeholder="Message" required></textarea>
+                        </div>
+                        <!-- single form -->
+                        <p class="form-message "></p>
+                        <div class="uk-margin ">
+                            <button class="uk-button uk-button-default" type="submit ">Senden</button>
+                        </div>
+                        <!-- single form -->
+                    </form>
+                </div>
+                <div class="uk-width-1-2@m ">
+                    <img class="uk-box-shadow-small " data-src="https://dummyimage.com/800x420/ccc/fff.jpg " width="800 " height="420 " alt="contact " uk-img>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer id="footer " class="footer-area uk-background-secondary uk-padding-small ">
+        <div class="uk-flex uk-flex-center uk-margin-top ">
+            <ul class="uk-subnav " uk-margin=" ">
+                <li class="uk-first-column ">
+                    <a href="#">© <script>document.write(new Date().getFullYear())</script> onepage</a>
+                </li>
+                <li><a href="imprint">Imprint</a></li>
+                <li><a href="privacy-policy">Privacy</a></li>
+            </ul>
+        </div>
+        <p class="uk-text-center uk-margin-remove">Made with <span uk-icon="heart"></span> by <a style="color:#2ab9a5;" href="https://www.sinci.at">sinci</a></p>
+    </footer>
+    <!--======= OFFCANVAS MOBILE ======-->
+    <div id="offcanvas-nav" uk-offcanvas="mode:slide; overlay: true ">
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close " type="button " uk-close></button>
+            <div class="uk-text-center "><img data-src="assets/images/onepage-logo-mobile.svg " width="40" height="40" alt="onepage" uk-svg></div>
+            <ul class="uk-nav uk-nav-primary" uk-scrollspy-nav="closest: li; scroll: true">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" uk-scroll><span data-hover="home">Home</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" uk-scroll><span data-hover="about">About</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#service" class="nav-link" uk-scroll><span data-hover="service">Service</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio " classs="nav-link" uk-scroll><span data-hover="portfolio">Portfolio</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" uk-scroll><span data-hover="contact">Contact</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="assets/js/uikit.min.js "></script>
+    <script src="assets/js/uikit-icons.min.js "></script>
+    <script src="assets/js/custom.min.js "></script>
+</body>
+
+</html>

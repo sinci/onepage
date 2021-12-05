@@ -1,0 +1,394 @@
+/* poppins-300 - latin */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v15-latin-300.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/poppins-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/poppins-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/poppins-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/poppins-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins-v15-latin-300.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* poppins-regular - latin */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v15-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins-v15-latin-regular.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* poppins-500 - latin */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v15-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/poppins-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/poppins-v15-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/poppins-v15-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/poppins-v15-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins-v15-latin-500.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* poppins-600 - latin */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v15-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/poppins-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/poppins-v15-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/poppins-v15-latin-600.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/poppins-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins-v15-latin-600.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* poppins-700 - latin */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v15-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/poppins-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/poppins-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/poppins-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/poppins-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins-v15-latin-700.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* poppins-800 - latin */
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/poppins-v15-latin-800.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/poppins-v15-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/poppins-v15-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/poppins-v15-latin-800.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/poppins-v15-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins-v15-latin-800.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+$primary-font:"Poppins",
+sans-serif;
+$primary-font-size:16px;
+$primary-color:#8a8fa3;
+$secondary-color:#2ab9a5;
+$headline-color:#32333c;
+$black-color:#000;
+$header-color:#ffffff;
+$background-muted:#fbfbfb;
+$padding90:90px 0;
+body {
+    font-family: $primary-font;
+    font-size: $primary-font-size;
+    color: $primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $primary-font;
+    font-weight: 600;
+    color: $headline-color;
+}
+
+#about,
+#service,
+#portfolio,
+#contact,
+#calltoaction {
+    padding: $padding90;
+}
+
+h2.title {
+    font-weight: 700;
+    font-size: 45px;
+    color: $black-color;
+}
+
+.uk-icon {
+    color: $secondary-color;
+}
+
+.uk-button {
+    font-weight: 500;
+    padding: 0 40px;
+    font-size: 15px;
+    line-height: 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    text-transform: uppercase;
+}
+
+.uk-button-default {
+    border: 1px solid $secondary-color;
+    color: $header-color;
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(42, 185, 166, 0.70);
+    -moz-box-shadow: 0px 5px 8px 0px rgba(42, 185, 166, 0.70);
+    box-shadow: 0px 5px 8px 0px rgba(42, 185, 166, 0.70);
+    background-color: $secondary-color;
+}
+
+.uk-button-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.uk-button-primary:hover,
+.uk-button-secondary:hover {
+    background-color: $secondary-color;
+}
+
+.uk-button-secondary {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: $header-color;
+    color: $secondary-color;
+    border-color: $header-color;
+}
+
+.uk-input {
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.uk-textarea {
+    padding: 10px 20px;
+    border-radius: 5px;
+    min-height: 140px;
+}
+
+.uk-text-emphasis {
+    color: $header-color!important;
+}
+
+.uk-background-primary {
+    background-color: $secondary-color;
+}
+
+
+/* HEADER
+*************************************************************/
+
+.uk-sticky.uk-active,
+#imprint .uk-sticky,
+#privacy .uk-sticky {
+    background-color: rgba(255, 255, 255, 0.979);
+    box-shadow: 0 0 2px rgb(6 8 8 / 15%);
+    -webkit-box-shadow: 0 0 2px rgb(6 8 8 / 15%);
+    -moz-box-shadow: 0 0 2px rgb(6 8 8 / 15%);
+    .uk-navbar-nav>li>a {
+        color: $primary-color;
+    }
+    .uk-navbar-nav>li>a:active,
+    .uk-navbar-nav>li>a:hover,
+    .uk-navbar-nav>li>a:focus {
+        color: $secondary-color;
+    }
+}
+
+.uk-navbar-nav>li>a {
+    color: $header-color;
+    font-size: $primary-font-size;
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.uk-navbar-nav>li>a:active,
+.uk-navbar-nav>li>a:hover,
+.uk-navbar-nav>li>a:focus,
+.uk-navbar-nav>li.uk-active>a {
+    color: $secondary-color;
+}
+
+.header-area h1 {
+    color: $header-color;
+}
+
+.uk-logo {
+    position: relative;
+    top: 5px;
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    border-right: .1em solid transparent;
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+    animation: typing 5s steps(60), blink-caret 5s;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 60%;
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: rgb(233, 233, 233);
+    }
+}
+
+
+/* SECTION ABOUT
+*************************************************************/
+
+.uk-progress {
+    height: 5px;
+    &::-moz-progress-bar {
+        background-color: $secondary-color;
+    }
+    &::-webkit-progress-value {
+        background-color: $secondary-color;
+    }
+    &::-ms-fill {
+        background-color: $secondary-color;
+    }
+}
+
+.skill-title {
+    font-size: $primary-font-size;
+    font-weight: 400;
+}
+
+
+/* SECTION PORTFOLIO
+*************************************************************/
+
+.work-title {
+    font-weight: 60;
+}
+
+.portfolio-area .uk-icon-button {
+    width: 50px;
+    height: 50px;
+    color: $header-color;
+    border: 1px solid $header-color;
+    background: transparent;
+}
+
+.portfolio-area .uk-icon-button:hover {
+    color: $secondary-color;
+    background: $header-color
+}
+
+.uk-overlay-primary {
+    background: rgba(42, 185, 166, 0.85);
+}
+
+
+/* SECTION CONTACT
+*************************************************************/
+
+.uk-card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.uk-card-default {
+    box-shadow: none;
+}
+
+.uk-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+/* MOBILE
+*************************************************************/
+
+.uk-offcanvas-bar {
+    background: $header-color;
+    .uk-nav-primary>li>a {
+        color: $primary-color;
+        font-size: $primary-font-size;
+        padding: 8px 0;
+    }
+    .uk-nav-primary>li.uk-active>a,
+    .uk-nav-primary>li>a:hover,
+    .uk-nav-primary>li>a:focus {
+        color: $secondary-color;
+    }
+    .uk-close {
+        color: $primary-color;
+    }
+}
+
+
+/* Smartphones */
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 26px;
+    }
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+}
