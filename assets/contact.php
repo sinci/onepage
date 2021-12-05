@@ -40,7 +40,7 @@ if($_POST) {
       
     if(mail($to,$subject,$email_body,$headers)) {
         //  To redirect form on a particular page
-        header("Location:https://onepage.demoserver-a.eu/impressum");
+        header("Location:https://onepage.demoserver-a.eu/imprint");
     } else {
         echo '<p>We are sorry but the email did not go through.</p>';
     }
