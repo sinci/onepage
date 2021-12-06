@@ -1,3 +1,4 @@
+# /.gitignore
 robots.txt
 .DS_Store
-**/assets/contact.php
+assets/contact.php
