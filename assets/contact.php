@@ -31,7 +31,7 @@ if($_POST) {
       
     $email_body .= "</div>";
 
-    $to = 'youremail example';
+    $to = 'youremail@test.org';
     $subject ='Contact Form';
  
     $headers  = 'MIME-Version: 1.0' . "\r\n"
