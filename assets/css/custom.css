@@ -58,6 +58,8 @@
   src: local(""), url("../fonts/poppins-v15-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/poppins-v15-latin-800.woff2") format("woff2"), url("../fonts/poppins-v15-latin-800.woff") format("woff"), url("../fonts/poppins-v15-latin-800.ttf") format("truetype"), url("../fonts/poppins-v15-latin-800.svg#Poppins") format("svg");
   /* Legacy iOS */
 }
+/* COLORS
+*************************************************************/
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -321,7 +323,6 @@ h2.title {
   color: #8a8fa3;
 }
 
-/* Smartphones */
 @media (max-width: 480px) {
   header h1 {
     font-size: 26px;

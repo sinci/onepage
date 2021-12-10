@@ -99,6 +99,10 @@
     /* Legacy iOS */
 }
 
+
+/* COLORS
+*************************************************************/
+
 $primary-font:"Poppins",
 sans-serif;
 $primary-font-size:16px;
@@ -375,9 +379,6 @@ h2.title {
         color: $primary-color;
     }
 }
-
-
-/* Smartphones */
 
 @media (max-width: 480px) {
     header h1 {
