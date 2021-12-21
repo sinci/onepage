@@ -13,3 +13,7 @@ UIkit.util.ready(function() {
         }
     });
 });
+
+// FOOTER COPYRIGHT YEAR
+const d = new Date();
+document.getElementById("year").innerHTML = d.getFullYear();
