@@ -229,7 +229,7 @@ h2.title {
     .uk-navbar-nav>li>a:active,
     .uk-navbar-nav>li>a:hover,
     .uk-navbar-nav>li>a:focus {
-        color: $secondary-color;
+        color: $secondary-color!important;
     }
 }
 
@@ -248,7 +248,7 @@ h2.title {
 .uk-navbar-nav>li>a:hover,
 .uk-navbar-nav>li>a:focus,
 .uk-navbar-nav>li.uk-active>a {
-    color: $secondary-color;
+    color: $secondary-color!important;
 }
 
 .header-area h1 {
